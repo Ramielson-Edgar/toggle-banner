@@ -1,4 +1,5 @@
-const checkbox = document.querySelector('.check-box__input')
+window.addEventListener('DOMContentLoaded', ()=>{
+  const checkbox = document.querySelector('.check-box__input')
 const bannerImg  =document.querySelector('.banner-container__img')
 
 checkbox.addEventListener('change',()=>{
@@ -7,4 +8,5 @@ checkbox.addEventListener('change',()=>{
   } else {
     bannerImg.classList.remove('show')
   }
+})
 })
