@@ -51,8 +51,8 @@ img {
 
 .check-box {
    position: relative;
-   width: 150px;
-   height: 35px;
+   width: 54px;
+   height: 20px;
    margin-bottom: 10px;
 
 }
@@ -60,9 +60,9 @@ img {
 input[type="checkbox"] {
    position: relative;
    appearance: none;
-   width: 150px;
-   height: 35px;
-   background: #FEE8E6;
+   width: 54px;
+   height: 20px;
+   background: #ebebeb;
    border-radius: 50px;
 
    cursor: pointer;
@@ -71,7 +71,7 @@ input[type="checkbox"] {
 }
 
 input:checked[type="checkbox"] {
-   background: #B2D5FF;
+   background: #3FE79A;
 
 }
 
@@ -82,8 +82,8 @@ input:checked[type="checkbox"] {
    justify-content: center;
    align-items: center;
 
-   width: 35px;
-   height: 35px;
+   width: 20px;
+   height: 20px;
    top: 0;
    left: 0;
    background: #fff;
@@ -103,7 +103,7 @@ input:checked[type="checkbox"] {
 }
 
 input:checked+.check-box__indicator {
-   left: 75%;
+   left: 68%;
 
 }
 
